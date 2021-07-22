@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadrate Apotheke Reservierung</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Apotheke.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="apotheke.html"><img class="logo" src="apotheke_bilder/apotheke-logo-mit-text.svg"
+                        alt="logo"></a>
+                <li><a href=apotheke.html>Startseite</a></li>
+                <li><a href=angebot.html>Angebot</a></li>
+                <li><a href=aktuelles.html>Aktuelles</a></li>
+                <li><a href=reservierung.html class='active-page'>Medikamentereservierung</a></li>
+                <li><a href=anfahrt.html>Anfahrt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="content">
+            <img src="apotheke_bilder/vorbestellung.jpg">
+            <p>Sehr geehrte Kunden, nutzen Sie dieses Kontakformular um für Ihre rezeptpflichtigen Medikamente einen
+                Abholtermin zu vereinbaren.<br> So gewährleisten wir Ihnen einen möglichst kontaktlosen Erwerb Ihrer
+                Produkte.<br>
+                Sie benötigen eine Bilddatei Ihres Rezeptes im .png oder .jpg Format, welches Sie mit Ihren Kontaktdaten
+                im
+                unteren Formular hochladen.</p>
+        </div>
+        <form>
+            <h3>Abholtermin Arzeimittel</h3>
+            <input placeholder="Vorname">
+            <input placeholder="Nachname">
+            <input placeholder="Straße / Hausnummer">
+            <input placeholder="PLZ">
+            <input placeholder="Ort">
+            <input placeholder="Telefon">
+            <input placeholder="Email">
+            <input placeholder="Name der Krankenkasse">
+            <input placeholder="Krankenkassennummer">
+            <label for="file">Rezept hochladen:</label>
+            <input type="file" accept=".png, .jpg" id="fname" name="fname">
+            <label for="date">Datum wählen</label>
+            <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+            <label for="appt">Uhrzeit wählen</label>
+
+            <input type="time" id="appt" name="appt" min="08:00" max="20:00" required>
+
+            <small>Beachten Sie unsere Öffnungszeiten!</small>
+            <input type="submit">
+        </form>
+        <div class="info">Bei korrekter Eingabe Ihrer Daten erhalten Sie von uns<br> eine Bestätigung per Email.</div>
+    </section>
+    <footer>
+        <ul>
+            <li><a href=kontakt.html>Kontakt</a></li>
+            <li><a href=über_uns.html>Über uns</a></li>
+            <li><a href=impressum.html>Impressum</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
