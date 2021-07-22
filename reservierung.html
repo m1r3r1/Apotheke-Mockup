@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Apotheke.css" />
+    <link rel="stylesheet" href="apotheke.css" />
 </head>
 
 <body>
@@ -47,15 +47,15 @@
             <input placeholder="Name der Krankenkasse">
             <input placeholder="Krankenkassennummer">
             <label for="file">Rezept hochladen:</label>
-            <input type="file" accept=".png, .jpg" id="fname" name="fname">
+            <input type="file" accept=".png, .jpg" id="file">
             <label for="date">Datum wählen</label>
-            <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+            <input type="date" id="date" value="2018-07-22" min="2018-01-01" max="2018-12-31">
             <label for="appt">Uhrzeit wählen</label>
 
-            <input type="time" id="appt" name="appt" min="08:00" max="20:00" required>
+            <input type="time" id="appt" min="08:00" max="20:00" required>
 
             <small>Beachten Sie unsere Öffnungszeiten!</small>
-            <input type="submit">
+            <button type="submit">Absenden</button>
         </form>
         <div class="info">Bei korrekter Eingabe Ihrer Daten erhalten Sie von uns<br> eine Bestätigung per Email.</div>
     </section>
