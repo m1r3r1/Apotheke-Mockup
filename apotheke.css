@@ -1,36 +1,41 @@
-*{
+* {
   font-family: 'Space Grotesk', sans-serif;
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
 }
+
 img {
   border-radius: 5px;
 }
+
 nav ul {
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    background-color: rgb(225, 229, 241);
-    align-items: center;
-    padding: 1%;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  background-color: rgb(225, 229, 241);
+  align-items: center;
+  padding: 1%;
 }
+
 footer ul {
-    background-color: rgb(225, 229, 241);
-    margin-top: 2%;
-    padding: 1%;
-    display: flex;
-    justify-content: space-around;
+  background-color: rgb(225, 229, 241);
+  margin-top: 2%;
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
 }
-nav ul .active-page
-{
+
+nav ul .active-page {
   background-color:rgb(200, 203, 214);
   padding: 23%;
 }
+
 .logo {
   width: 450px;
 }
+
 .content {
   display: flex;
   align-items: center;
@@ -39,14 +44,18 @@ nav ul .active-page
   margin: 2%;
   background-color: rgb(241, 244, 253) ;
 }
+
 #corona {
   background-color: lightblue;
 }
+
 .info {
   font-size: 180%;
-  float: inherit; width: 1100px;
+  float: inherit;
+  width: 1100px;
   padding: 5%;
 }
+
 .content_angebot {
   display: flex;
   align-items: center;
@@ -55,9 +64,11 @@ nav ul .active-page
   margin: 10%;
   background-color: lightblue ;
 }
+
 h2 {
   color: red;
 }
+
 form {
   background-color: lightblue;
   padding: 20px;
@@ -66,15 +77,19 @@ form {
   width: 500px;
   justify-content: center;
 }
+
 input {
   margin: 2%;
   width: 300px
 }
+
 footer {
   padding-top: 2%;
 }
+
 .info_impressum {
   font-size: 100%;
-  float: inherit; width: 1100px;
+  float: inherit;
+  width: 1100px;
   padding: 5%;
 }
